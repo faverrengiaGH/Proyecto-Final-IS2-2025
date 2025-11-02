@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TiendaApi
 
 Aplicación móvil desarrollada en React Native para la gestión completa de productos (CRUD) utilizando la FakeStore API.
@@ -110,3 +111,7 @@ Constantes y configuraciones globales
 5. Model hace petición HTTP y devuelve datos
 6. Controller actualiza el estado con los datos
 7. View se re-renderiza automáticamente con el nuevo estado
+=======
+# Proyecto-Final-IS2-2025
+Trabajo practico final. 
+>>>>>>> 31bbb8ede81d54a84e26d68b6c13e2d2d6d7fc14
