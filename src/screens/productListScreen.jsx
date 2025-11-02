@@ -2,8 +2,8 @@ import React, { useLayoutEffect } from 'react';
 import { FlatList, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { useProducts } from '../hooks/useProducts';
-import { ProductCard } from '../components/productCard';
-import { Loading } from '../components/loading';
+import { ProductCard } from '../components/ProductCard';
+import { Loading } from '../components/Loading';
 import { COLORS, SPACING } from '../utils/constants';
 
 //Llamando a los componentes creados previamente 

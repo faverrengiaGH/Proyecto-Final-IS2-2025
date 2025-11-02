@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert } from 'react-native';
-import { ProductForm } from '../components/productForm';
+import { ProductForm } from '../components/ProductForm';
 import { useProductMutations } from '../hooks/useProductMutations';
 
 export const CreateProductScreen = ({ navigation }) => {

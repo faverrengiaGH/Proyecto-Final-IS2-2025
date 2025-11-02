@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet, Alert,} from 'react-native';
 import { productApi } from '../api/fakeStore';
-import { Loading } from '../components/loading';
+import { Loading } from '../components/Loading';
 import { COLORS, SPACING } from '../utils/constants';
 
 export const ProductDetailScreen = ({ route, navigation }) => {

@@ -1,6 +1,6 @@
 import React, { useLayoutEffect } from 'react';
 import { Alert, TouchableOpacity, Text, StyleSheet } from 'react-native';
-import { ProductForm } from '../components/productForm';
+import { ProductForm } from '../components/ProductForm';
 import { useProductMutations } from '../hooks/useProductMutations';
 import { COLORS, SPACING } from '../utils/constants';
 
