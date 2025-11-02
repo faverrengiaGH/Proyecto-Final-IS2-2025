@@ -1,0 +1,29 @@
+import React from 'react';
+import { View, ActivityIndicator, Text, StyleSheet } from 'react-native';
+import { COLORS, SPACING } from '../utils/constants';
+
+export const Loading = ({ message = 'Cargando...' }) => {
+  return (
+    <View style={styles.container}>
+      <ActivityIndicator size="large" color={COLORS.primary} />
+      <Text style={styles.text}>{message}</Text>
+    </View>
+  );
+};
+
+
+//Estilos para la pantalla de carga
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: COLORS.background,
+  },
+  text: {
+    marginTop: SPACING.md,
+    fontSize: 16,
+    color: COLORS.textSecondary,
+  },
+});
